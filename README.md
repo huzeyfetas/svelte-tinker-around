@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 *Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+=======
+*Psst — looking for a more complete solution? Check out [SvelteKit](https://kit.svelte.dev), the official framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.*
+
+*Looking for a shareable component template instead? You can [use SvelteKit for that as well](https://kit.svelte.dev/docs#packaging) or the older [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+>>>>>>> bcc9a0eea62482f4ea34e3d0a4ef1da80c187820
 
 ---
 
@@ -31,7 +37,11 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+=======
+Navigate to [localhost:8080](http://localhost:8080). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+>>>>>>> bcc9a0eea62482f4ea34e3d0a4ef1da80c187820
 
 By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
 
@@ -72,6 +82,11 @@ Or remove the script via:
 rm scripts/setupTypeScript.js
 ```
 
+<<<<<<< HEAD
+=======
+If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
+
+>>>>>>> bcc9a0eea62482f4ea34e3d0a4ef1da80c187820
 ## Deploying to the web
 
 ### With [Vercel](https://vercel.com)
